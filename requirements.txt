@@ -17,9 +17,9 @@ filelock>=4.2.1
 chardet>=7.6.0
 
 # Dev / tests
-pytest>=9.1.1
-pytest-asyncio>=1.3.0
-pytest-timeout>=2.4.0
+pytest==9.1.1
+pytest-asyncio==1.3.0
+pytest-timeout==2.4.0
 
 # Shared IO, reference data and contracts (requires repository access).
 -r requirements-infra.txt
